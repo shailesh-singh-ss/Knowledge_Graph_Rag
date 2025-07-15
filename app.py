@@ -12,9 +12,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Neo4j connection details
-NEO4J_URI="neo4j+s://ae618189.databases.neo4j.io"
-NEO4J_USERNAME="neo4j"
-NEO4J_PASSWORD="apTUdkOHHfIvxt2jZkDnvTKePpBevU0ZQjINCda62Rs"
+NEO4J_URI=os.getenv('NEO4j_URI')
+NEO4J_USERNAME=os.getenv('NEO4J_USERNAME')
+NEO4J_PASSWORD=os.getenv('NEO4J_PASSWORD')
 
 
 
